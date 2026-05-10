@@ -1,0 +1,172 @@
+{
+  "theme_id": "mythology",
+  "display_name": "Mythology & Dark Fantasy",
+  "description": "Epic tales of gods, heroes, ancient civilizations, mythological creatures, and dark fantasy worlds. Greek, Roman, Norse, Egyptian, and beyond.",
+  "target_audience": "18-45 mythology enthusiasts, fantasy lovers, history fans",
+  "youtube_category": "24",
+  "tiktok_category": "entertainment",
+  "estimated_cpm_usd": 9,
+
+  "sdxl_checkpoint": "misri/juggernaut-xl-v10",
+  "_checkpoint_note": "Juggernaut XL produces painterly cinematic quality matching the dark fantasy aesthetic. Falls back to base SDXL if unavailable.",
+  "_checkpoint_alternatives": [
+    "misri/juggernaut-xl-v10",
+    "Lykon/dreamshaper-xl-turbo",
+    "stabilityai/stable-diffusion-xl-base-1.0"
+  ],
+
+  "formats": {
+    "myth_short": {
+      "description": "60-90 sec retelling of a single mythological moment",
+      "scenes": 5,
+      "seconds_per_scene": 16,
+      "tone": "dramatic, mythic, every word carries weight",
+      "best_for": "TikTok, YouTube Shorts"
+    },
+    "epic_tale": {
+      "description": "5-8 min full mythological story with narrative arc",
+      "scenes": 10,
+      "seconds_per_scene": 44,
+      "tone": "cinematic, grand, poetic, builds to a powerful conclusion",
+      "best_for": "YouTube"
+    },
+    "god_profile": {
+      "description": "6-10 min deep dive into a god, hero, or creature",
+      "scenes": 12,
+      "seconds_per_scene": 45,
+      "tone": "authoritative, fascinating, dark and beautiful",
+      "best_for": "YouTube"
+    },
+    "dark_legend": {
+      "description": "8-12 min dark retelling of a cursed myth or fallen hero",
+      "scenes": 14,
+      "seconds_per_scene": 50,
+      "tone": "haunting, poetic, slow-burn, deeply atmospheric",
+      "best_for": "YouTube long-form"
+    }
+  },
+
+  "narrator": {
+    "name": "The Oracle",
+    "personality": "ancient storyteller who speaks as if recounting memories, not stories",
+    "voice_style": "deep, measured, resonant, slightly otherworldly, like thunder heard from a distance",
+    "voice_ref": "assets/voice_refs/oracle_reference.wav",
+    "tts_speed": 0.88
+  },
+
+  "visual_style": {
+    "art_style": "epic cinematic digital oil painting, dramatic painterly style, baroque lighting, hyper-detailed fantasy art, dark fantasy aesthetic, photorealistic yet painterly, cinematic composition, inspired by classical mythology paintings",
+    "color_palette": "stormy greys and dark blues, ancient gold and bronze, deep crimson accents, pale ethereal white, shadow black, oxidized copper green",
+    "quality_tags": "masterpiece, epic, cinematic, hyper-detailed, painterly oil texture, dramatic lighting, award-winning digital art, 8K quality, atmospheric",
+    "negative_prompt": "cartoon, anime, flat, low quality, watermark, text, modern clothing, contemporary, blurry, washed out, low detail, plastic, 3D render",
+
+    "style_modifiers": {
+      "divine":    "golden divine light, ethereal glow, gods among clouds, olympian grandeur",
+      "cursed":    "dark twisted shadows, corrupted beauty, malevolent energy, tragic",
+      "epic_war":  "ancient battlefield, armies clashing, dust and fire, heroic chaos",
+      "underworld":"dark realm, glowing embers, shadows and mist, ominous beauty",
+      "nature":    "ancient untamed nature, massive trees, primordial world, mythic landscape",
+      "temple":    "ancient stone temple, torchlight, sacred atmosphere, carved reliefs"
+    }
+  },
+
+  "characters": {
+    "elena": {
+      "role": "goddess, queen, or powerful female figure",
+      "mythology_persona": "ancient deity or legendary queen, cold beauty with divine power"
+    },
+    "marcus": {
+      "role": "hero, warrior, or god of war",
+      "mythology_persona": "legendary warrior or battle god, raw power and honor"
+    },
+    "professor": {
+      "role": "oracle, wise elder, or narrator",
+      "mythology_persona": "ancient oracle or philosopher who has witnessed ages"
+    },
+    "aria": {
+      "role": "mortal hero, priestess, or tragic figure",
+      "mythology_persona": "chosen mortal navigating a world of gods, courage and vulnerability"
+    }
+  },
+
+  "backgrounds": {
+    "olympus_above": "Mount Olympus above the clouds, divine palaces gleaming in golden light, gods watching below, stormy sky, epic scale",
+    "ancient_city": "vast ancient Greek or Roman city on a clifftop, stormy dramatic sky, birds in flight, woman in dark dress looking out, painterly epic",
+    "underworld_gates": "gates of the underworld, dark glowing river Styx, skeletal trees, pale figures, haunting and beautiful",
+    "battlefield_troy": "ancient battlefield at dusk, burning city on the horizon, armored warriors, smoke and fire, cinematic war",
+    "dark_ocean": "ancient sea at night, mythical sea creature beneath dark waters, small ship, moonlight on waves, ominous",
+    "oracle_temple": "ancient temple interior, incense smoke, torchlight on carved stone, oracle figure in shadows, sacred atmosphere",
+    "cursed_forest": "dark primordial forest, ancient twisted trees, supernatural mist, pale moonlight, creatures lurking in shadow",
+    "throne_of_gods": "divine throne room above clouds, massive marble columns, golden light shafts, supreme power and authority",
+    "labyrinth": "stone labyrinth interior, torch flickering, shadows of something massive moving beyond walls, dread and wonder",
+    "frozen_tartarus": "frozen underworld prison, dark ice and shadow, chains of light, tortured beauty, eternal punishment",
+    "sea_of_myths": "mythological ocean, sea nymphs and creatures visible beneath surface, ancient ship, vast and unknowable",
+    "fallen_hero": "aftermath of an epic battle, fallen hero on ancient ground, stormy sky clearing, tragic and beautiful"
+  },
+
+  "content_pillars": {
+    "greek": [
+      "The real story of Medusa -- she was not the monster",
+      "Why Prometheus really stole fire from the gods",
+      "Achilles -- the warrior who could not outrun his fate",
+      "The labyrinth of Crete and what it truly represented",
+      "Persephone -- the goddess who chose the underworld",
+      "Why Odysseus took ten years to travel a short distance",
+      "Narcissus -- the original cautionary tale of vanity",
+      "The Titan War that almost destroyed creation"
+    ],
+    "norse": [
+      "Ragnarok -- the end of everything and what comes after",
+      "Loki -- god, monster, or victim of the other gods",
+      "Odin sacrificed his eye for wisdom -- what did he see",
+      "The Valkyries and what they really were",
+      "Fenrir the wolf who will swallow the sun"
+    ],
+    "egyptian": [
+      "Anubis -- the god who weighed human hearts",
+      "Osiris murdered and resurrected -- the first resurrection myth",
+      "The curse of the pharaohs -- where it really came from",
+      "Cleopatra -- goddess, queen, or political genius"
+    ],
+    "dark_tales": [
+      "The myth so dark the Greeks refused to repeat it",
+      "Creatures of ancient mythology that were never explained",
+      "The forgotten god who was erased from history",
+      "When gods punished mortals -- the most cruel sentences ever given"
+    ]
+  },
+
+  "llm_system_prompt": "You are an ancient oracle and master storyteller of mythology. Write scripts with the weight and poetry of mythological texts, but accessible to modern audiences. Every sentence should feel like it carries the memory of ages. Use vivid imagery, dramatic irony, and the language of epic poetry. Characters are not just people -- they are forces. Settings are not just places -- they are living entities. Be historically and mythologically accurate where possible, noting where myths vary. Safe for all audiences -- no explicit content, but darkness and tragedy are welcome as they are core to mythology.",
+
+  "hook_templates": [
+    "Before there were heroes, there were gods. And the gods were not kind.",
+    "This story was considered too dark to tell. Until now.",
+    "She was not the villain. She was the warning.",
+    "Every civilization feared this. And they were right to.",
+    "The myth you were taught was wrong. Here is what really happened."
+  ],
+
+  "thumbnail_style": "Epic painterly digital art, single powerful figure against dramatic sky or divine backdrop. Dark and beautiful. Gold and storm grey palette. Bold atmospheric composition. Minimal text -- one word or short phrase in an ancient-style font. Should look like a movie poster for a mythological epic.",
+
+  "music_style": "epic dark orchestral, ancient instruments woven through modern orchestration, haunting choir, dramatic tension and release, Hans Zimmer meets ancient Greece, 60-100bpm, deeply atmospheric and emotional",
+
+  "animation_notes": {
+    "strategy": "SVD",
+    "motion_bucket_by_mood": {
+      "divine": 75,
+      "cursed": 65,
+      "epic_war": 120,
+      "dark": 60,
+      "peaceful": 70,
+      "default": 80
+    },
+    "visual_note": "SVD on high-quality painterly images produces stunning slow cape flow, hair movement, cloud drift, torch flicker effects. Keep motion subtle -- the images are so detailed that too much movement looks wrong. Motion bucket 60-90 is the sweet spot for mythology."
+  },
+
+  "hashtags": [
+    "mythology", "greekmythology", "norsemythology", "ancienthistory",
+    "darkfantasy", "myths", "gods", "legends", "ancientgreece",
+    "mythologytiktok", "epicstories", "ancientworld", "fantasy",
+    "historymystery", "darkhistory"
+  ]
+}

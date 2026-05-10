@@ -1,0 +1,66 @@
+{
+  "theme_id": "horror",
+  "display_name": "Horror Stories & Creepypasta",
+  "description": "Atmospheric horror stories, creepypasta, urban legends, paranormal tales for teens and adults",
+  "target_audience": "16-35 year olds who love horror content",
+  "youtube_category": "24",
+  "estimated_cpm_usd": 8,
+
+  "formats": {
+    "short_scary": {
+      "description": "2-3 min quick horror story",
+      "scenes": 6,
+      "seconds_per_scene": 22,
+      "tone": "tense, atmospheric, building dread"
+    },
+    "full_story": {
+      "description": "8-15 min full horror story",
+      "scenes": 12,
+      "seconds_per_scene": 60,
+      "tone": "slow burn, atmospheric, deeply unsettling"
+    }
+  },
+
+  "narrator": {
+    "name": "Vincent",
+    "personality": "calm storyteller who makes horror feel more real through understatement",
+    "voice_style": "low, measured, slightly hushed, ominous undertone, like reading by candlelight",
+    "voice_ref": "assets/voice_refs/vincent_reference.wav",
+    "tts_speed": 0.88
+  },
+
+  "visual_style": {
+    "art_style": "dark atmospheric digital art, deep shadows, limited light sources, horror movie aesthetic, painterly, dramatic chiaroscuro lighting",
+    "color_palette": "deep black, cold blue-gray, sickly pale yellow, blood red accents, fog white",
+    "quality_tags": "atmospheric, dark, cinematic, moody, high quality horror art",
+    "negative_prompt": "cartoon, bright colors, cheerful, explicit gore, children, nudity, text"
+  },
+
+  "backgrounds": {
+    "dark_forest": "ominous dark forest at night, single path, fog, distant light, deeply unsettling",
+    "abandoned_house": "abandoned Victorian house, broken windows, overgrown, moonlight, eerie",
+    "foggy_road": "empty country road in thick fog, single headlight beam, isolation",
+    "basement": "dark basement, single hanging light bulb, shadows, brick walls, dread",
+    "cemetery_night": "atmospheric old cemetery at night, moonlight on stones, mist, silence",
+    "mirror_dark": "dark room with old mirror, subtle wrongness in reflection, psychological horror"
+  },
+
+  "content_pillars": [
+    "The man who lived in my walls for three years",
+    "I found my missing sister's diary - I wish I hadn't",
+    "Something is wrong with my neighbor",
+    "The last voicemail from my dead wife",
+    "I work night shift at a rest stop",
+    "There is something in the lake behind my house",
+    "My daughter has an imaginary friend that knows things",
+    "The smile that followed me home",
+    "I found a door in my basement that was not there before",
+    "The gas station at mile marker 56"
+  ],
+
+  "llm_system_prompt": "You are a master horror story writer in the tradition of creepypasta. Write in first person. Build atmosphere slowly. Use mundane details to make the horror feel real. Never explain everything - ambiguity is scarier. No graphic gore or sexual content. Psychological dread over shock value. Safe rating: PG-13 horror.",
+
+  "music_style": "dark ambient, dissonant drones, subtle unsettling tones, horror soundtrack style, tension building, no melody",
+
+  "hashtags": ["horror", "creepypasta", "scarystories", "horrorcommunity", "nosleep", "paranormal", "horrorstories", "scarytiktok", "urbanlegends", "truecrime"]
+}

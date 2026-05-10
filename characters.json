@@ -1,0 +1,533 @@
+{
+  "_comment": "Global character registry v2.1 -- 12 characters. Human and cartoon types.",
+  "_version": "2.1",
+  "_how_to_add": "Run: python scripts/character_creator.py --interactive",
+  "characters": {
+    "aria": {
+      "display_name": "Aria",
+      "type": "human",
+      "gender": "female",
+      "age_range": "25-30",
+      "ethnicity": "Mediterranean warm-toned",
+      "description": "Warm confident woman, dark flowing hair, expressive brown eyes, natural makeup, friendly approachable energy",
+      "personality": "wise, empathetic, direct, trusted older sister energy",
+      "best_themes": [
+        "relationships",
+        "mindfulness",
+        "motivation",
+        "finance"
+      ],
+      "reference_image": "assets/characters/aria_reference.png",
+      "seed": 42,
+      "lora_path": "models/lora/aria_v1.safetensors",
+      "trigger_word": "aria_character",
+      "ip_adapter_weight": 0.72,
+      "sd_prompt": "beautiful confident woman, warm brown eyes, natural makeup, dark flowing hair, soft warm smile, Mediterranean features",
+      "negative_prompt": "old, ugly, deformed, blonde, masculine",
+      "theme_adaptations": {
+        "relationships": "aria_character, casual elegant style, warm lighting, relatable expression",
+        "motivation": "aria_character, confident power stance, sharp professional look, determined",
+        "mindfulness": "aria_character, serene peaceful expression, soft natural linen, calm",
+        "horror": "aria_character, frightened expression, dark shadows, wide eyes",
+        "finance": "aria_character, smart business casual, confident and capable",
+        "fitness": "aria_character, athletic wear, energetic strong, healthy glow",
+        "history": "aria_character, period-accurate flowing dress, dignified composed",
+        "kids": "aria_character, warm maternal smile, bright casual, welcoming"
+      },
+      "voice_ref": "assets/voice_refs/aria_reference.wav",
+      "voice_description": "warm clear confident 28-year-old woman",
+      "tts_speed_by_theme": {
+        "relationships": 0.93,
+        "motivation": 1.02,
+        "mindfulness": 0.78,
+        "horror": 0.87,
+        "finance": 0.96,
+        "fitness": 1.05,
+        "history": 0.93,
+        "kids": 0.85
+      }
+    },
+    "marcus": {
+      "display_name": "Marcus",
+      "type": "human",
+      "gender": "male",
+      "age_range": "32-38",
+      "ethnicity": "African-American",
+      "description": "Strong composed Black man, close-cropped hair, strong jaw, kind intense dark eyes, athletic build, commanding presence",
+      "personality": "no-nonsense, experienced, speaks truth with conviction",
+      "best_themes": [
+        "motivation",
+        "fitness",
+        "finance",
+        "history"
+      ],
+      "reference_image": "assets/characters/marcus_reference.png",
+      "seed": 77,
+      "lora_path": "models/lora/marcus_v1.safetensors",
+      "trigger_word": "marcus_character",
+      "ip_adapter_weight": 0.72,
+      "sd_prompt": "handsome strong Black man, close-cropped dark hair, strong jawline, kind intense dark eyes, athletic build, commanding",
+      "negative_prompt": "old, ugly, deformed, feminine, long hair",
+      "theme_adaptations": {
+        "relationships": "marcus_character, warm open expression, casual smart, approachable",
+        "motivation": "marcus_character, powerful determined, strong confident pose, intense",
+        "mindfulness": "marcus_character, peaceful meditative, calm centered energy",
+        "horror": "marcus_character, tense alert, dark shadows, fear and adrenaline",
+        "finance": "marcus_character, sharp business suit, successful confident professional",
+        "fitness": "marcus_character, gym wear, strong athletic, training energy",
+        "history": "marcus_character, period military or formal, dignified proud",
+        "kids": "marcus_character, big friendly smile, colorful casual, fun dad energy"
+      },
+      "voice_ref": "assets/voice_refs/marcus_reference.wav",
+      "voice_description": "deep authoritative warm Black male voice, 35 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.95,
+        "motivation": 1.04,
+        "mindfulness": 0.8,
+        "horror": 0.87,
+        "finance": 0.97,
+        "fitness": 1.06,
+        "history": 0.93,
+        "kids": 0.88
+      }
+    },
+    "sofia": {
+      "display_name": "Sofia",
+      "type": "human",
+      "gender": "female",
+      "age_range": "28-34",
+      "ethnicity": "Latina",
+      "description": "Vibrant expressive Latina woman, long dark curly hair, warm olive skin, bright dark eyes, full lips, passionate and warm",
+      "personality": "passionate, expressive, real, calls things as she sees them",
+      "best_themes": [
+        "relationships",
+        "fitness",
+        "motivation",
+        "kids"
+      ],
+      "reference_image": "assets/characters/sofia_reference.png",
+      "seed": 156,
+      "lora_path": "models/lora/sofia_v1.safetensors",
+      "trigger_word": "sofia_character",
+      "ip_adapter_weight": 0.73,
+      "sd_prompt": "beautiful expressive Latina woman, long dark curly hair, warm olive skin, bright dark eyes, full lips, passionate expression",
+      "negative_prompt": "old, ugly, deformed, blonde, straight hair, pale",
+      "theme_adaptations": {
+        "relationships": "sofia_character, expressive emotional, casual stylish, warm passionate",
+        "motivation": "sofia_character, fierce determined, powerful pose, fire and energy",
+        "mindfulness": "sofia_character, serene smile, soft flowing clothes, peaceful grounded",
+        "horror": "sofia_character, terrified expression, dark atmosphere, raw fear",
+        "finance": "sofia_character, smart professional, confident, boss energy",
+        "fitness": "sofia_character, athletic wear, powerful dynamic, latina fitness energy",
+        "history": "sofia_character, traditional cultural dress, proud and dignified",
+        "kids": "sofia_character, warm fun smile, bright colors, playful energetic"
+      },
+      "voice_ref": "assets/voice_refs/sofia_reference.wav",
+      "voice_description": "expressive passionate Latina woman, warm vibrant, 30 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.97,
+        "motivation": 1.05,
+        "mindfulness": 0.8,
+        "horror": 0.88,
+        "finance": 0.95,
+        "fitness": 1.07,
+        "history": 0.92,
+        "kids": 0.9
+      }
+    },
+    "chen": {
+      "display_name": "Dr. Chen",
+      "type": "human",
+      "gender": "male",
+      "age_range": "35-42",
+      "ethnicity": "East Asian",
+      "description": "Calm intellectual East Asian man, neatly styled black hair, wire-rimmed glasses, thoughtful dark eyes, slim build, measured and precise",
+      "personality": "analytical, calm, deeply knowledgeable, makes complex things simple",
+      "best_themes": [
+        "finance",
+        "history",
+        "mindfulness",
+        "motivation"
+      ],
+      "reference_image": "assets/characters/chen_reference.png",
+      "seed": 203,
+      "lora_path": "models/lora/chen_v1.safetensors",
+      "trigger_word": "chen_character",
+      "ip_adapter_weight": 0.7,
+      "sd_prompt": "handsome East Asian man, neatly styled black hair, slim wire-rimmed glasses, thoughtful dark eyes, slim build, intellectual",
+      "negative_prompt": "old, ugly, deformed, feminine, no glasses",
+      "theme_adaptations": {
+        "relationships": "chen_character, warm open expression, casual modern, thoughtful",
+        "motivation": "chen_character, calm determined, poised and focused",
+        "mindfulness": "chen_character, deep meditative peace, eyes softly closed, serene",
+        "horror": "chen_character, quietly terrified, analytical fear, dark",
+        "finance": "chen_character, sharp professional, data charts background, expert",
+        "fitness": "chen_character, athletic but precise, technical approach, focused",
+        "history": "chen_character, East Asian scholar attire, wise composed",
+        "kids": "chen_character, playful smile, bright colors, patient teacher"
+      },
+      "voice_ref": "assets/voice_refs/chen_reference.wav",
+      "voice_description": "calm measured East Asian male voice, academic tone, 38 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.94,
+        "motivation": 0.98,
+        "mindfulness": 0.76,
+        "horror": 0.88,
+        "finance": 0.95,
+        "fitness": 1.0,
+        "history": 0.92,
+        "kids": 0.87
+      }
+    },
+    "zara": {
+      "display_name": "Zara",
+      "type": "human",
+      "gender": "female",
+      "age_range": "24-30",
+      "ethnicity": "West African",
+      "description": "Stunning stylish Black woman, natural afro or box braids, deep dark skin, bold features, high cheekbones, powerful and magnetic",
+      "personality": "bold, stylish, authentic, does not sugarcoat anything",
+      "best_themes": [
+        "relationships",
+        "motivation",
+        "fitness",
+        "horror"
+      ],
+      "reference_image": "assets/characters/zara_reference.png",
+      "seed": 289,
+      "lora_path": "models/lora/zara_v1.safetensors",
+      "trigger_word": "zara_character",
+      "ip_adapter_weight": 0.73,
+      "sd_prompt": "stunning Black woman, natural afro hair, deep dark skin, bold high cheekbones, magnetic eyes, powerful stylish presence",
+      "negative_prompt": "old, ugly, deformed, light skin, straight hair",
+      "theme_adaptations": {
+        "relationships": "zara_character, bold confident expression, stylish casual, direct and real",
+        "motivation": "zara_character, fierce powerful pose, commanding, unstoppable",
+        "mindfulness": "zara_character, soft peaceful, natural earthly setting, grounded",
+        "horror": "zara_character, intense survival mode, dark atmosphere, fierce",
+        "finance": "zara_character, executive power fashion, boss energy, sharp",
+        "fitness": "zara_character, athletic powerful, strong dark skin, fierce energy",
+        "history": "zara_character, African queen attire, regal powerful, gold accents",
+        "kids": "zara_character, bright big smile, colorful head wrap, fun loving auntie"
+      },
+      "voice_ref": "assets/voice_refs/zara_reference.wav",
+      "voice_description": "bold confident Black woman, strong and direct, 27 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.96,
+        "motivation": 1.06,
+        "mindfulness": 0.82,
+        "horror": 0.88,
+        "finance": 0.97,
+        "fitness": 1.08,
+        "history": 0.91,
+        "kids": 0.92
+      }
+    },
+    "elena": {
+      "display_name": "Elena",
+      "type": "human",
+      "gender": "female",
+      "age_range": "30-38",
+      "ethnicity": "Eastern European",
+      "description": "Elegant mysterious woman, high cheekbones, pale skin, striking light eyes, platinum or ash blonde hair, cool and composed",
+      "personality": "enigmatic, elegant, precise, intellectually intense",
+      "best_themes": [
+        "horror",
+        "history",
+        "mindfulness",
+        "relationships"
+      ],
+      "reference_image": "assets/characters/elena_reference.png",
+      "seed": 334,
+      "lora_path": "models/lora/elena_v1.safetensors",
+      "trigger_word": "elena_character",
+      "ip_adapter_weight": 0.71,
+      "sd_prompt": "elegant mysterious woman, high cheekbones, pale skin, striking light grey eyes, platinum blonde hair, composed intense expression",
+      "negative_prompt": "old, ugly, deformed, dark skin, dark hair, warm tones",
+      "theme_adaptations": {
+        "relationships": "elena_character, intense emotional depth, sophisticated style, complex",
+        "motivation": "elena_character, ice cold determined, unstoppable precision",
+        "mindfulness": "elena_character, ethereal peace, white flowing, otherworldly calm",
+        "horror": "elena_character, unnervingly calm, pale and intense, gothic atmosphere",
+        "finance": "elena_character, sleek powerful, cold calculation, elite professional",
+        "fitness": "elena_character, disciplined precise athlete, perfect form, cold focus",
+        "history": "elena_character, aristocratic historical gown, noble and composed",
+        "kids": "elena_character, rare warm smile, elegant but approachable, storyteller"
+      },
+      "voice_ref": "assets/voice_refs/elena_reference.wav",
+      "voice_description": "elegant precise Eastern European woman, cool melodic, 34 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.91,
+        "motivation": 0.97,
+        "mindfulness": 0.75,
+        "horror": 0.84,
+        "finance": 0.94,
+        "fitness": 0.99,
+        "history": 0.9,
+        "kids": 0.88
+      }
+    },
+    "jake": {
+      "display_name": "Jake",
+      "type": "human",
+      "gender": "male",
+      "age_range": "22-28",
+      "ethnicity": "White American",
+      "description": "Young energetic guy, messy brown hair, stubble, easy natural smile, casual athletic style, relatable and unpolished Gen-Z energy",
+      "personality": "authentic, relatable, Gen-Z appeal, keeps it real",
+      "best_themes": [
+        "fitness",
+        "motivation",
+        "relationships",
+        "finance"
+      ],
+      "reference_image": "assets/characters/jake_reference.png",
+      "seed": 412,
+      "lora_path": "models/lora/jake_v1.safetensors",
+      "trigger_word": "jake_character",
+      "ip_adapter_weight": 0.7,
+      "sd_prompt": "young handsome white man, messy brown hair, light stubble, easy natural smile, casual athletic style, relatable",
+      "negative_prompt": "old, ugly, deformed, formal, suit, feminine",
+      "theme_adaptations": {
+        "relationships": "jake_character, casual open, hoodie or tee, relatable and real",
+        "motivation": "jake_character, fired up, casual workout gear, raw energy",
+        "mindfulness": "jake_character, genuine surprised calm, guy who found meditation",
+        "horror": "jake_character, scared trying to be tough, atmospheric dark",
+        "finance": "jake_character, casual but learning, young investor energy",
+        "fitness": "jake_character, gym energy, athletic wear, pumped bro",
+        "history": "jake_character, student discovering history, curiosity and wonder",
+        "kids": "jake_character, goofy grin, fun young uncle, playful"
+      },
+      "voice_ref": "assets/voice_refs/jake_reference.wav",
+      "voice_description": "energetic casual young American man, Gen-Z tone, 25 years old",
+      "tts_speed_by_theme": {
+        "relationships": 1.0,
+        "motivation": 1.08,
+        "mindfulness": 0.85,
+        "horror": 0.91,
+        "finance": 0.98,
+        "fitness": 1.1,
+        "history": 0.95,
+        "kids": 0.95
+      }
+    },
+    "professor": {
+      "display_name": "The Professor",
+      "type": "human",
+      "gender": "male",
+      "age_range": "52-62",
+      "ethnicity": "British mixed heritage",
+      "description": "Distinguished older man, silver-streaked hair, sharp grey eyes, slight greying beard, round glasses, timeless gravitas and authority",
+      "personality": "authoritative, measured, deeply credible, has seen everything",
+      "best_themes": [
+        "history",
+        "finance",
+        "horror",
+        "motivation"
+      ],
+      "reference_image": "assets/characters/professor_reference.png",
+      "seed": 501,
+      "lora_path": "models/lora/professor_v1.safetensors",
+      "trigger_word": "professor_character",
+      "ip_adapter_weight": 0.7,
+      "sd_prompt": "distinguished older man, silver-streaked hair, sharp grey eyes, slight grey beard, round glasses, authoritative gravitas",
+      "negative_prompt": "young, ugly, deformed, no beard, no glasses, feminine",
+      "theme_adaptations": {
+        "relationships": "professor_character, warm fatherly wisdom, cardigan, trusted mentor",
+        "motivation": "professor_character, intense commanding delivery, powerful presence",
+        "mindfulness": "professor_character, serene elder wisdom, deep stillness",
+        "horror": "professor_character, grim knowing, he has seen the darkness before",
+        "finance": "professor_character, expert economist, charts, definitive authority",
+        "fitness": "professor_character, iron discipline late life athlete, age and wisdom",
+        "history": "professor_character, in his element, passionate and electric, archives",
+        "kids": "professor_character, warm grandpa energy, story time, twinkling eyes"
+      },
+      "voice_ref": "assets/voice_refs/professor_reference.wav",
+      "voice_description": "deep authoritative British male voice, gravitas, 57 years old",
+      "tts_speed_by_theme": {
+        "relationships": 0.91,
+        "motivation": 0.96,
+        "mindfulness": 0.74,
+        "horror": 0.83,
+        "finance": 0.93,
+        "fitness": 0.96,
+        "history": 0.89,
+        "kids": 0.88
+      }
+    },
+    "luna": {
+      "display_name": "Luna",
+      "type": "cartoon",
+      "description": "Friendly glowing crescent moon, pale yellow body, big sparkly blue eyes, rosy cheeks, tiny star-shaped hands, small star-tipped sleeping cap",
+      "personality": "gentle, magical, dreamy, loves stories and stars",
+      "best_themes": [
+        "kids",
+        "mindfulness"
+      ],
+      "reference_image": "assets/characters/luna_reference.png",
+      "seed": 11,
+      "lora_path": "models/lora/luna_cartoon_v1.safetensors",
+      "trigger_word": "luna_moon_character",
+      "ip_adapter_weight": 0.88,
+      "sd_prompt": "luna moon character, crescent moon shape, pale yellow glowing body, big sparkly blue eyes, rosy cheeks, star sleeping cap, flat 2D cartoon illustration",
+      "negative_prompt": "realistic, scary, dark, adult, human, photorealistic",
+      "theme_adaptations": {
+        "kids": "luna_moon_character, cheerful wide smile, storybook illustration, warm magical",
+        "mindfulness": "luna_moon_character, peaceful dreamy expression, soft glow, starry sky"
+      },
+      "voice_ref": "assets/voice_refs/luna_reference.wav",
+      "voice_description": "soft gentle magical childlike voice",
+      "tts_speed_by_theme": {
+        "kids": 0.85,
+        "mindfulness": 0.78
+      }
+    },
+    "rex": {
+      "display_name": "Rex",
+      "type": "cartoon",
+      "description": "Small friendly T-Rex, vibrant green scales, huge round orange eyes, tiny arms stretched wide, enormous toothy grin, always looks delighted",
+      "personality": "enthusiastic, clumsy but loveable, excited about everything",
+      "best_themes": [
+        "kids"
+      ],
+      "reference_image": "assets/characters/rex_reference.png",
+      "seed": 88,
+      "lora_path": "models/lora/rex_v1.safetensors",
+      "trigger_word": "rex_dinosaur_character",
+      "ip_adapter_weight": 0.9,
+      "sd_prompt": "rex friendly cartoon T-Rex dinosaur, bright green scales, huge round orange eyes, tiny arms wide, enormous happy toothy grin, small cute, flat 2D cartoon illustration",
+      "negative_prompt": "scary, realistic, terrifying, dark, adult, human",
+      "theme_adaptations": {
+        "kids": "rex_dinosaur_character, huge happy smile, bright colors, tiny arms clapping, excited joyful"
+      },
+      "voice_ref": "assets/voice_refs/rex_reference.wav",
+      "voice_description": "enthusiastic excited slightly gravelly child-like voice",
+      "tts_speed_by_theme": {
+        "kids": 0.9
+      }
+    },
+    "pip": {
+      "display_name": "Pip",
+      "type": "cartoon",
+      "description": "Tiny round glowing firefly, luminous green body, big amber eyes, transparent wings, six tiny legs, glowing lantern tail, always looks curious",
+      "personality": "curious, helpful, tiny but brave, asks lots of questions",
+      "best_themes": [
+        "kids",
+        "mindfulness"
+      ],
+      "reference_image": "assets/characters/pip_reference.png",
+      "seed": 55,
+      "lora_path": "models/lora/pip_v1.safetensors",
+      "trigger_word": "pip_firefly_character",
+      "ip_adapter_weight": 0.9,
+      "sd_prompt": "pip firefly character, small round luminous green body, big amber eyes, transparent wings, tiny legs, glowing lantern tail, flat 2D cartoon illustration, tiny cute",
+      "negative_prompt": "scary, realistic, large, dark, adult, human",
+      "theme_adaptations": {
+        "kids": "pip_firefly_character, curious wondering expression, wings buzzing, glowing lantern",
+        "mindfulness": "pip_firefly_character, peaceful glowing softly, tiny light in dark night, serene"
+      },
+      "voice_ref": "assets/voice_refs/pip_reference.wav",
+      "voice_description": "tiny bright chirpy enthusiastic voice",
+      "tts_speed_by_theme": {
+        "kids": 0.88,
+        "mindfulness": 0.8
+      }
+    },
+    "nova": {
+      "display_name": "Nova",
+      "type": "cartoon",
+      "description": "Young adventurous girl space explorer, short blue hair with star clips, tan skin, big curious green eyes, white spacesuit with star patches, always has a backpack",
+      "personality": "brave, endlessly curious, loves science and adventure",
+      "best_themes": [
+        "kids"
+      ],
+      "reference_image": "assets/characters/nova_reference.png",
+      "seed": 144,
+      "lora_path": "models/lora/nova_v1.safetensors",
+      "trigger_word": "nova_explorer_character",
+      "ip_adapter_weight": 0.88,
+      "sd_prompt": "nova young girl space explorer, short blue hair star clips, tan warm skin, big curious green eyes, white spacesuit star patches, small adventure backpack, cartoon illustration",
+      "negative_prompt": "scary, realistic, adult, dark, old, boy",
+      "theme_adaptations": {
+        "kids": "nova_explorer_character, excited adventurous, pointing at something amazing, bright"
+      },
+      "voice_ref": "assets/voice_refs/nova_reference.wav",
+      "voice_description": "bright curious energetic young girl voice",
+      "tts_speed_by_theme": {
+        "kids": 0.88
+      }
+    },
+    "coach": {
+      "display_name": "Coach",
+      "type": "human",
+      "gender": "male",
+      "age_range": "42-52",
+      "ethnicity": "mixed American",
+      "description": "A weathered athletic man, short greying hair, strong jaw, intense focused eyes, broad shoulders, looks like he has coached a thousand games and won most of them",
+      "personality": "intense, passionate, tactical, commands respect, has fire in his eyes",
+      "best_themes": [
+        "sports",
+        "motivation",
+        "fitness",
+        "history"
+      ],
+      "reference_image": "assets/characters/coach_reference.png",
+      "seed": 617,
+      "lora_path": "models/lora/coach_v1.safetensors",
+      "trigger_word": "coach_character",
+      "ip_adapter_weight": 0.71,
+      "sd_prompt": "weathered athletic man, short greying hair, strong jaw, intense focused eyes, broad shoulders, sports coach appearance, commanding presence",
+      "negative_prompt": "young, ugly, deformed, feminine, soft, weak",
+      "theme_adaptations": {
+        "sports": "coach_character, intense sideline expression, coaching attire, stadium backdrop, fire in eyes",
+        "motivation": "coach_character, powerful commanding delivery, pointing forward, inspirational",
+        "fitness": "coach_character, training gear, technical expert, push harder energy",
+        "history": "coach_character, formal attire, reflecting on legendary moments, wise"
+      },
+      "voice_ref": "assets/voice_refs/coach_reference.wav",
+      "voice_description": "deep gravelly sports coach voice, intense and commanding, 47 years old",
+      "tts_speed_by_theme": {
+        "sports": 1.05,
+        "motivation": 1.04,
+        "fitness": 1.06,
+        "history": 0.92
+      }
+    },
+    "oracle": {
+      "display_name": "The Oracle",
+      "type": "human",
+      "gender": "female",
+      "age_range": "35-50",
+      "ethnicity": "ancient Mediterranean ambiguous",
+      "description": "A mysterious ethereal woman, long flowing dark hair with silver strands, pale luminous skin, ancient dark eyes that have seen everything, wearing flowing dark robes with gold details",
+      "personality": "ancient, otherworldly, speaks truths that burn, beautiful and terrifying",
+      "best_themes": [
+        "mythology",
+        "horror",
+        "history",
+        "mindfulness"
+      ],
+      "reference_image": "assets/characters/oracle_reference.png",
+      "seed": 723,
+      "lora_path": "models/lora/oracle_v1.safetensors",
+      "trigger_word": "oracle_woman_character",
+      "ip_adapter_weight": 0.73,
+      "sd_prompt": "mysterious ethereal woman, long dark hair with silver strands, pale luminous skin, ancient deep dark eyes, flowing dark robes with gold detail, oracle priestess appearance, otherworldly beauty",
+      "negative_prompt": "modern, contemporary, young, cheerful, bright colors, casual, deformed",
+      "theme_adaptations": {
+        "mythology": "oracle_woman_character, ancient temple setting, divine light from above, seeing beyond time, gold accents",
+        "horror": "oracle_woman_character, dark prophecy expression, shadows and candle light, dread and power",
+        "history": "oracle_woman_character, ancient world setting, scholarly and wise, composed authority",
+        "mindfulness": "oracle_woman_character, serene profound stillness, eyes half closed, cosmic peace"
+      },
+      "voice_ref": "assets/voice_refs/oracle_reference.wav",
+      "voice_description": "deep resonant mysterious woman voice, ancient and otherworldly, 45 years old",
+      "tts_speed_by_theme": {
+        "mythology": 0.85,
+        "horror": 0.83,
+        "history": 0.88,
+        "mindfulness": 0.76
+      }
+    }
+  }
+}
