@@ -1,0 +1,65 @@
+# AI Studio v2 - GPU Requirements
+# Python 3.11 | CUDA 12.1 | RunPod pytorch template
+
+# -- Core AI (GPU) ------------------------------------------------------------
+# PyTorch already in RunPod template - listed for reference
+# torch==2.2.0+cu121
+# torchaudio==2.2.0+cu121
+
+# -- Image generation (SDXL) --------------------------------------------------
+diffusers==0.29.2
+transformers==4.41.2
+accelerate==0.30.0
+safetensors==0.4.3
+huggingface_hub==0.23.4
+Pillow==10.3.0
+invisible_watermark==0.2.0
+xformers==0.0.25.post1           # Flash attention - 2x faster SDXL
+
+# -- Animation ----------------------------------------------------------------
+# AnimateDiff installed via ComfyUI or direct:
+einops==0.7.0
+omegaconf==2.3.0
+
+# -- Voice synthesis ----------------------------------------------------------
+TTS==0.22.0
+openai-whisper==20231117
+
+# -- Music generation ---------------------------------------------------------
+audiocraft==1.3.0                # Works on Linux GPU - not Windows
+
+# -- Video processing ---------------------------------------------------------
+moviepy==1.0.3
+imageio[ffmpeg]==2.34.0
+av==12.0.0                       # PyAV - prebuilt on Linux
+
+# -- LLM ----------------------------------------------------------------------
+ollama==0.2.1
+
+# -- Trend research -----------------------------------------------------------
+pytrends==4.9.2
+
+# -- Upload -------------------------------------------------------------------
+google-api-python-client==2.127.0
+google-auth-oauthlib==1.2.0
+tiktok-uploader==1.2.0
+
+# -- RunPod API ---------------------------------------------------------------
+runpod==1.6.2                    # For auto start/stop pods from your laptop
+
+# -- Utilities ----------------------------------------------------------------
+python-dotenv==1.0.1
+rich==13.7.1
+typer==0.12.3
+pydantic==2.7.1
+numpy==1.26.4
+scipy==1.13.0
+soundfile==0.12.1
+librosa==0.10.2
+tqdm==4.66.4
+requests==2.31.0
+fastapi==0.111.0
+uvicorn==0.29.0
+jinja2==3.1.4
+aiofiles==23.2.1
+setuptools>=69.0

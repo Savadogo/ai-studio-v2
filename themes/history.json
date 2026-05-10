@@ -1,0 +1,66 @@
+{
+  "theme_id": "history",
+  "display_name": "Historical Stories & Facts",
+  "description": "Fascinating historical events, forgotten stories, dark history, and ancient mysteries",
+  "target_audience": "20-60 history enthusiasts",
+  "youtube_category": "27",
+  "estimated_cpm_usd": 10,
+
+  "formats": {
+    "quick_fact": {
+      "description": "90-sec fascinating historical fact",
+      "scenes": 5,
+      "seconds_per_scene": 16,
+      "tone": "intriguing, conversational, surprising"
+    },
+    "narrative": {
+      "description": "8-12 min historical story narrative",
+      "scenes": 12,
+      "seconds_per_scene": 55,
+      "tone": "cinematic, dramatic, educational"
+    }
+  },
+
+  "narrator": {
+    "name": "Professor",
+    "personality": "brilliant historian who makes the past feel alive and urgent",
+    "voice_style": "authoritative but engaging, measured pace, slight gravitas",
+    "voice_ref": "assets/voice_refs/professor_reference.wav",
+    "tts_speed": 0.94
+  },
+
+  "visual_style": {
+    "art_style": "cinematic historical painting style, oil painting aesthetic, dramatic lighting, period-accurate details, documentary quality art",
+    "color_palette": "aged sepia tones, deep reds, burnished gold, shadow blue, parchment white",
+    "quality_tags": "historical, cinematic, painterly, dramatic, period accurate, museum quality",
+    "negative_prompt": "modern, contemporary, cartoon, anime, text, watermark, inaccurate, anachronistic"
+  },
+
+  "backgrounds": {
+    "ancient_rome": "ancient Rome at its height, forum, marble columns, bustling crowds, dramatic sky",
+    "medieval_castle": "imposing medieval castle, torchlight, stone walls, dramatic atmosphere",
+    "battlefield": "dramatic historical battlefield, epic scale, smoke and determination",
+    "royal_court": "opulent royal court, candlelight, rich tapestries, power and intrigue",
+    "ancient_egypt": "ancient Egyptian temple, hieroglyphs, golden light, mysterious and grand",
+    "revolution_streets": "revolutionary era city streets, cobblestones, dramatic lighting, historical turning point"
+  },
+
+  "content_pillars": [
+    "The Roman emperor who declared war on the ocean",
+    "The forgotten woman who discovered DNA",
+    "How a single assassination started World War 1",
+    "The library that contained all human knowledge",
+    "The empire that was so big it caused its own collapse",
+    "The plague that killed half of Europe",
+    "The real story behind the Trojan War",
+    "The civilization that vanished without explanation",
+    "How Napoleon was defeated by his own ego",
+    "The historical event your textbook got completely wrong"
+  ],
+
+  "llm_system_prompt": "You are a master historical storyteller. Write cinematic, accurate, and compelling narratives about real historical events. Make the past feel alive and relevant to today. Use vivid sensory details. Always be factually accurate - if uncertain, acknowledge it. Safe for all audiences.",
+
+  "music_style": "epic orchestral, period-appropriate instruments, dramatic and sweeping, cinematic historical score",
+
+  "hashtags": ["history", "historyfacts", "ancienthistory", "historytiktok", "historymystery", "historicalevent", "darkhistory", "historynerds", "historylovers", "forgotten"]
+}
