@@ -1,0 +1,66 @@
+{
+  "theme_id": "finance",
+  "display_name": "Personal Finance & Wealth",
+  "description": "Money tips, investing basics, budgeting, passive income, financial freedom",
+  "target_audience": "22-45 year olds wanting financial literacy",
+  "youtube_category": "27",
+  "estimated_cpm_usd": 22,
+
+  "formats": {
+    "quick_tip": {
+      "description": "60-90 sec single powerful money tip",
+      "scenes": 5,
+      "seconds_per_scene": 15,
+      "tone": "clear, practical, no jargon"
+    },
+    "explainer": {
+      "description": "5-8 min concept breakdown",
+      "scenes": 9,
+      "seconds_per_scene": 42,
+      "tone": "educational, accessible, motivating"
+    }
+  },
+
+  "narrator": {
+    "name": "David",
+    "personality": "knowledgeable but approachable, like a friend who works in finance",
+    "voice_style": "clear, confident, measured, trustworthy",
+    "voice_ref": "assets/voice_refs/david_reference.wav",
+    "tts_speed": 0.97
+  },
+
+  "visual_style": {
+    "art_style": "clean modern infographic style mixed with cinematic photography, professional, trustworthy, sharp",
+    "color_palette": "deep navy, emerald green, gold, crisp white, charcoal",
+    "quality_tags": "professional, clean, trustworthy, modern, financial",
+    "negative_prompt": "cartoonish, cheap, unprofessional, blurry, chaotic, explicit"
+  },
+
+  "backgrounds": {
+    "trading_screen": "multiple monitor trading setup, stock charts, professional desk, focused",
+    "city_skyline": "financial district skyline at dusk, power and opportunity, cinematic",
+    "growth_chart": "abstract upward growth visualization, green lines, professional",
+    "luxury_minimal": "minimalist luxury lifestyle, clean, aspirational but tasteful",
+    "piggy_bank": "creative money concept art, coins, growth, clean modern style",
+    "freedom_nature": "person on cliff with open arms, freedom, financial independence concept"
+  },
+
+  "content_pillars": [
+    "How compound interest actually works",
+    "The 50-30-20 budget rule explained",
+    "How to invest your first 1000 dollars",
+    "7 money habits of wealthy people",
+    "Index funds vs picking stocks",
+    "How to build an emergency fund fast",
+    "Passive income streams that actually work",
+    "Why your savings account is losing money",
+    "How to negotiate a higher salary",
+    "The psychology of overspending"
+  ],
+
+  "llm_system_prompt": "You are a financial educator. Write clear, accurate, accessible scripts about personal finance. Simplify complex concepts with real examples. Always include a practical action step. Avoid overpromising returns. Safe for all audiences. Not financial advice disclaimer where appropriate.",
+
+  "music_style": "smooth corporate jazz, subtle and professional, light piano, unobtrusive, trustworthy feel",
+
+  "hashtags": ["personalfinance", "investing", "moneytips", "financialfreedom", "budgeting", "passiveincome", "wealthbuilding", "stockmarket", "savings", "richhabits"]
+}
